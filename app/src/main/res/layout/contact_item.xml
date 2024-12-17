@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Mã liên hệ -->
+    <TextView
+        android:id="@+id/tvMa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã: 1"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <!-- Tên liên hệ -->
+    <TextView
+        android:id="@+id/tvTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên: Nguyễn Văn A"
+        android:textSize="16sp"
+        android:textColor="#333333" />
+
+    <!-- Số điện thoại -->
+    <TextView
+        android:id="@+id/tvDienThoai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SĐT: 0123456789"
+        android:textSize="16sp"
+        android:textColor="#555555" />
+</LinearLayout>
